@@ -2,6 +2,11 @@ import math
 
 
 def check_prime(n):
+    """
+    input: any number
+    output: boolean True if the number is prime
+    boolean False if the number is not prime
+    """
     root = int(math.sqrt(n))
     # print(root)
     for i in range(2, root + 1):

@@ -1,12 +1,14 @@
 import math
+
+
 def check_prime(n):
     root = int(math.sqrt(n))
     # print(root)
-    for i in range(2, root+1):
+    for i in range(2, root + 1):
         if n % i == 0:
-            return(False)
+            return False
 
-    return(True)
+    return True
 
 # print(check_prime(88))
 # prime_list = []
